@@ -11,25 +11,6 @@ package org.example;
  * }
  */
 public class Solution {
-
-//    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-//        if (list1 == null)
-//        {System.out.println("Step1");
-//            return list2;}
-//        if (list2 == null)
-//        {System.out.println("Step2");
-//            return list1;}
-//
-//        if (list1.val < list2.val) {
-//            list1.next = mergeTwoLists(list1.next, list2);
-//            return list1;
-//        }
-//        else {
-//            list2.next = mergeTwoLists(list1, list2.next);
-//            return list2;
-//        }
-//    }
-
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     ListNode dummy = new ListNode(0);
     ListNode tail = dummy;
